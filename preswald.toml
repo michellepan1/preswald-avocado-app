@@ -1,0 +1,22 @@
+[project]
+title = "Avocado Project - Preswald"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/newlogo.png"
+favicon = "images/avocado.ico"
+primaryColor = "#3AAE3A"
+backgroundColor = "#E6F4EA"
+secondaryBackgroundColor = "#D1E7D1"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
